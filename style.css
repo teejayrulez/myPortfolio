@@ -463,17 +463,17 @@ img {
   width: initial;
   height: initial;
   margin: initial;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #000;
 }
 
 .projects-container .swiper-button-prev {
-  left: -1rem;
+  left: -.5rem;
   top: 4.5rem;
 }
 
 .projects-container .swiper-button-next {
-  right: -1rem;
+  right: -.5rem;
   top: 4.5rem;
 }
 
