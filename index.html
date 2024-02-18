@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo"> MezueStudio </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">
+                <i class="fa-solid fa-house"></i> Home
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">
+                <i class="fa-solid fa-trophy"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#qualifications" class="nav-link">
+                <i class="fa-solid fa-star"></i> Qualifications
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#services" class="nav-link">
+                <i class="fa-solid fa-truck"></i> Services
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">
+                <i class="fa-solid fa-book"></i> Projects
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">
+                <i class="fa-solid fa-phone"></i> Contacts
+              </a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav-close" id="nav-close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </div>
+
+          <!-- Toggle button-->
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Home -->
+      <section class="home section" id="home">
+        <div class="home-container container grid section-border">
+          <div class="home-data grid">
+            <h1 class="home-title">
+              Hi, I'm Mezue Tochukwu <br />
+              Frontend Developer <br />
+            </h1>
+
+            <div class="home-blob grid">
+              <div class="home-perfil">
+                <img src="./image/home-img.jpg" alt="home perfil" />
+              </div>
+            </div>
+
+            <ul class="home-social">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="home-social-link"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a
+                href="https://www.github.com/"
+                target="_blank"
+                class="home-social-link"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                class="home-social-link"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </ul>
+          </div>
+
+          <!-- Home info 1-->
+          <div class="home-info">
+            <div>
+              <h3 class="home-info-title">BIOGRAPHY</h3>
+
+              <p class="home-info-description">
+                Hi, I'm Mezue Tochukwu, Frontend Developer. Passionate about
+                designing beautiful web interface.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home-info-title">CONTACT</h3>
+
+              <p class="home-info-description">
+                teejaymezue8@gmail.com <br />
+                +234 8152669241 <br />
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home-info-title">Services</h3>
+
+              <p class="home-info-description">
+                Web Developer <br />
+                Web design <br />
+                Web3 Specialist <br />
+              </p>
+            </div>
+          </div>
+
+          <!-- Home info 2-->
+          <div class="home-info">
+            <div>
+              <h3 class="home-info-title">YEARS OF EXPERIENCE</h3>
+
+              <p class="home-info-number">02+</p>
+            </div>
+            <div>
+              <h3 class="home-info-title">COMPLETED PROJECTS</h3>
+
+              <p class="home-info-number">10+</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skill -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <span class="section-subtitle">My favorite skills</span>
+
+        <div class="skills-container container grid section-border">
+          <div class="skills-content">
+            <h3 class="skills-title"><i class="#"></i> Frontend Developer</h3>
+
+            <div class="skills-info">
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="./image/html.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills-name">HTML</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="./image/css.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills-name">CSS</h3>
+                <span class="skills-subtitle">Advanced</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="./image/javascript.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills-name">JavaScript</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="./image/react.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills-name">React</h3>
+                <span class="skills-subtitle">Basic</span>
+              </div>
+
+              <div class="skills-data">
+                <div class="skills-blob">
+                  <img src="./image/git-icon.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills-name">Git</h3>
+                <span class="skills-subtitle">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Qualification -->
+      <section class="qualification section" id="qualifications">
+        <h2 class="section-title">Qualifications</h2>
+        <span class="section-subtitle">Experience & Education</span>
+
+        <div class="qualification-container container grid section-border">
+          <!-- Qualification 1 -->
+          <div class="qualification-content">
+            <h3 class="qualification-title">
+              <i class="fa-solid fa-school"></i>Education
+            </h3>
+
+            <div class="qualification-info">
+              <div>
+                <h3 class="qualification-name">Computer Science</h3>
+                <span class="qualification-country"
+                  >Enugu State University of Science and Technology
+                </span>
+                <span class="qualification-year">2017 - 2022</span>
+              </div>
+
+              <div>
+                <h3 class="qualification-name">Genesys Upskill Internship</h3>
+                <span class="qualification-country">Virtual - Enugu</span>
+                <span class="qualification-year">2023</span>
+              </div>
+
+              <div>
+                <h3 class="qualification-name">Genesys Learnable Internship</h3>
+                <span class="qualification-country">Virtual - Enugu</span>
+                <span class="qualification-year">2023 - 2024</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Qualification 2 -->
+          <div class="qualification-content">
+            <h3 class="qualification-title"><i class="fa-solid fa-building"></i> Work</h3>
+
+            <div class="qualification-info">
+              <div>
+                <h3 class="qualification-name">Freelance</h3>
+                <span class="qualification-country">Enugu</span>
+                <span class="qualification-year">2022 - Present</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="services section" id="services">
+        <h2 class="section-title">Services</h2>
+        <span class="section-subtitle">What I offer</span>
+
+        <div class="services-container container grid section-border">
+          <div class="services-card">
+            <i class="fa-solid fa-file-word"></i>
+
+            <h2 class="services-title">
+              Website <br />
+              Development
+            </h2>
+
+            <p class="services-description">
+              Service that provides the best quality and at the request of the
+              client, with professional work and customer support.
+            </p>
+
+            <div class="services-border"></div>
+          </div>
+
+          <div class="services-card">
+            <i class="fa-solid fa-droplet"></i>
+
+            <h2 class="services-title">
+              Unique <br />
+              Desgin
+            </h2>
+
+            <p class="services-description">
+              Service that provides the best quality and at the request of the
+              client, with professional work and customer support.
+            </p>
+
+            <div class="services-border"></div>
+          </div>
+
+          <div class="services-card">
+            <i class="fa-solid fa-pen"></i>
+
+            <h2 class="services-title">
+              Digital <br />
+              Animator
+            </h2>
+
+            <p class="services-description">
+              Service that provides the best quality and at the request of the
+              client, with professional work and customer support.
+            </p>
+
+            <div class="services-border"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <span class="section-subtitle">My Work</span>
+
+        <div class="container section-border">
+          <div class="projects-container swiper">
+            <div class="swiper-wrapper">
+              <!-- Project 1 -->
+              <div class="projects-content swiper-slide">
+                <img src="./image/Tech.jpg" alt="projects image" class="projects-img" />
+
+                <div>
+                  <span class="projects-subtitle">Web</span>
+                  <h1 class="projects-title">Landing Page</h1>
+
+                  <a href="#" class="projects-button">
+                    View demo <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="projects-content swiper-slide">
+                <img src="./image/Tech.jpg" alt="projects image" class="projects-img" />
+
+                <div>
+                  <span class="projects-subtitle">Web</span>
+                  <h1 class="projects-title">Ecommerce Store</h1>
+
+                  <a href="#" class="projects-button">
+                    View demo <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="projects-content swiper-slide">
+                <img src="./image/Tech.jpg" alt="projects image" class="projects-img" />
+
+                <div>
+                  <span class="projects-subtitle">Animation</span>
+                  <h1 class="projects-title">Animation Prototypes</h1>
+
+                  <a href="#" class="projects-button">
+                    View demo <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Swiper arrows -->
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+
+            <!-- Swiper pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacts -->
+      <section class="contact section" id="contacts">
+        <h2 class="section-title">Contact Me</h2>
+        <span class="section-subtitle">Get in touch</span>
+
+        <div class="contact-container container grid section-border">
+          <div class="contact-content">
+            <h3 class="contact-title"><i class="fa-solid fa-phone"></i> Talk to me</h3>
+
+            <div class="contact-info">
+              <div class="contact-data">
+                <span class="contact-data-title">Email</span>
+                <span class="contact-data-info">teejaymezue8@gmail.com</span>
+              </div>
+
+              <div class="contact-data">
+                <span class="contact-data-title"> Whatsapp</span>
+                <span class="contact-data-info">+234 8152669241</span>
+                <a
+                  href="https://api.whatsapp.com/send?phone=+2348152669241&text=Hello, more information"
+                  target="_blank"
+                  class="contact-button"
+                >
+                  Write me <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+
+              <div class="contact-data">
+                <span class="contact-data-title">linkedin</span>
+                <span class="contact-data-info">@tochukwuMezue</span>
+                <a href="#" target="_blank" class="contact-button">
+                  Write me <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-content">
+            <h3 class="contact-title">
+              <i class="fa-solid fa-file-word"></i> Write me your project
+            </h3>
+
+            <form action="" class="contact-form" id="contact-form">
+              <div class="contact-form-div">
+                <label class="contact-form-tag">Names</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="Write your names"
+                  class="contact-form-input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact-form-div">
+                <label class="contact-form-tag">Email</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  required
+                  placeholder="Write your email"
+                  class="contact-form-input"
+                  id="contact-email"
+                />
+              </div>
+              <div class="contact-form-div contact-form-area">
+                <label class="contact-form-tag">Project</label>
+                <textarea
+                  name="user_project"
+                  placeholder="Write your project"
+                  id="contact-project"
+                  class="contact-form-input"
+                ></textarea>
+              </div>
+
+              <p class="contact-message" id="contact-message"></p>
+
+              <button type="submit" class="contact-button">
+                Submit <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <h1 class="footer-title">Mezue Tochuwku</h1>
+        <p>Frontend Developer</p>
+
+        <ul class="footer-list">
+          <li>
+            <a href="#home" class="footer">Home</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="footer">Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="footer-social">
+          <a
+            href="https://www.linkedin.com/"
+            target="_blank"
+            class="footer-social-link"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.github.com/"
+            target="_blank"
+            class="footer-social-link"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.twitter.com/" target="_blank" class="footer-social-link"> 
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </ul>
+
+        <span class="footer-copy">
+          &#169; Copyright Teejay. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!-- Scroll up-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
